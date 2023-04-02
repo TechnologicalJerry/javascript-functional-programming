@@ -12,3 +12,15 @@ const add = function (x, y) {
 document.addEventListener('click', function (event) {
     return;
 })
+
+// Function ---------->
+function greet(salutation, firstName) {
+    return `${salutation, firstName}`;
+}
+
+// Function ---------->
+const greet = function (salutation) {
+    return function (firstName) {
+        return `${salutation} ${firstName}`;
+    }
+}
