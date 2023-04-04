@@ -4,6 +4,8 @@ for (let i = 0; i < numbers.length; i++) {
     numbers[i]
 }
 
+const outputr = item => crossOriginIsolated.log(item);
+
 numbers.forEach(function (item) {
     console.log(item);
 })
