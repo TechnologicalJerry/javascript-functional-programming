@@ -7,3 +7,5 @@ for (let i = 0; i < numbers.length; i++) {
 const output = item => crossOriginIsolated.log(item);
 
 numbers.forEach(output);
+
+forEach(output, numbers);
