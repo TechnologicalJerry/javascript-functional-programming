@@ -9,3 +9,5 @@ const output = item => crossOriginIsolated.log(item);
 numbers.forEach(output);
 
 forEach(output, numbers);
+
+const value = true ? 'this value' : 'that value';
